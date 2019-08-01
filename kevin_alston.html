@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Kevin Alston</title>
+    <link rel="stylesheet" href="the_bomb_digz.css">
+  </head>
+  <body>
+
+    <div class="navbar">
+      <a href="the_bomb_digz.html">Home</a>
+      <a href="members.html">Members</a>
+      <a href="discography.html">Discography</a>
+      <a href="connect.html">Connect</a>
+      <a href="photo_gallery.html">Photo Gallery</a>
+      <a href="https://the-bomb-digz.myshopify.com/">Shop TBD</a>
+    </div>
+
+<div class="main">
+    <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 7</div>
+    <img src="https://idolwiki.com/pics/KevinAlston/KevinAlston.jpg" style="width:50" align="center">
+    <!-- <div class="text">Caption Text</div> -->
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 7</div>
+    <img src="https://pbs.twimg.com/profile_images/1085325326136340480/hqGIFgaW_400x400.jpg" style="width:50%">
+    <!-- <div class="text">Caption Two</div> -->
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 7</div>
+    <img src="https://a.wattpad.com/cover/71496099-352-k413504.jpg" style="width:50%">
+    <!-- <div class="text">Caption Three</div> -->
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 7</div>
+    <img src="https://data.whicdn.com/images/223478107/large.jpg" style="width:50%">
+    <!-- <div class="text">Caption Three</div> -->
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 7</div>
+    <img src="https://66.media.tumblr.com/b2ca497d076dbea3f252b07003fbd315/tumblr_ntx631mylV1tg1ftno1_400.jpg" style="width:50%">
+    <!-- <div class="text">Caption Three</div> -->
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">6 / 7</div>
+    <img src="https://d.wattpad.com/story_parts/20/images/13fa9a8161e9a884.jpg" style="width:50%">
+    <!-- <div class="text">Caption Three</div> -->
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">7 / 7</div>
+    <img src="https://idolwiki.com/pics/KevinAlston/1.jpg" style="width:50%">
+    <!-- <div class="text">Caption Three</div> -->
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</div>
+    <!-- <img src="https://idolwiki.com/pics/KevinAlston/KevinAlston.jpg" alt="Kevin Alston1" width=25% height=25%>
+    <img src="https://pbs.twimg.com/profile_images/1085325326136340480/hqGIFgaW_400x400.jpg" alt="Kevin Alston2">
+    <img src="https://a.wattpad.com/cover/71496099-352-k413504.jpg" alt="Kevin Alston3" width=25% height=25%>
+    <img src="https://data.whicdn.com/images/223478107/large.jpg" alt="Kevin Alston4" width=25% height=25%>
+    <img src="https://66.media.tumblr.com/b2ca497d076dbea3f252b07003fbd315/tumblr_ntx631mylV1tg1ftno1_400.jpg" alt="Kevin Alston5">
+    <img src="https://d.wattpad.com/story_parts/20/images/13fa9a8161e9a884.jpg" alt="Kevin Alston6" width=25% height=25%>
+    <img src="https://idolwiki.com/pics/KevinAlston/1.jpg" alt="Kevin Alston7" width=40% height=40%> -->
+  </body>
+</html>
