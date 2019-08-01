@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <title>The Bomb Digz</title>
+    <link rel="stylesheet" href="the_bomb_digz.css">
+  </head>
+  <body>
+
+    <div class="navbar">
+      <a href="the_bomb_digz.html">Home</a>
+      <a href="members.html">Members</a>
+      <a href="discography.html">Discography</a>
+      <a href="connect.html">Connect</a>
+      <a href="photo_gallery.html">Photo Gallery</a>
+      <a href="https://the-bomb-digz.myshopify.com/">Shop TBD</a>
+    </div>
+
+    <div class="main">
+      <img src="the_bomb_digz.jpg" alt="The Bomb Digz" class="center">
+      <h1>About</h1>
+      <p id="about">
+        The Bomb Digz (known as TBD for short) are an upcoming pop and R&B trio, hailing from New York and New Jersey. Established in 2012, TBD has gained a large following by covering popular songs, as well as creating their own music. **WORK ON THIS**
+      </p>
+    </div>
+
+  </body>
+
+</html>
